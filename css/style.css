@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1600px;
+}
+
+.header .header__contact {
+  background-color: #404040;
+}
+.header .header__contact .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 17.5px 0;
+}
+.header .header__contact .container .contact {
+  display: flex;
+  max-width: 770px;
+  height: 45px;
+}
+.header .header__contact .container .contact .contact__adress {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ffffff;
+  width: 288 px;
+}
+.header .header__contact .container .contact .contact__adress p,
+.header .header__contact .container .contact .contact__adress img {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  height: 30px;
+}
+.header .header__contact .container .contact .contact__adress p {
+  padding: 0 20px 0 30px;
+}
+.header .header__contact .container .contact .contact__timework {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ffffff;
+  padding: 0 20px;
+}
+.header .header__contact .container .contact .contact__timework p,
+.header .header__contact .container .contact .contact__timework img {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  height: 30px;
+}
+.header .header__contact .container .contact .contact__timework img {
+  padding-right: 20px;
+}
+.header .header__contact .container .contact .contact__phone {
+  display: flex;
+  align-items: center;
+}
+.header .header__contact .container .contact .contact__phone .phone__numb1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 110px;
+  margin-right: 30px;
+}
+.header .header__contact .container .contact .contact__phone img {
+  padding: 0 20px;
+}
+.header .header__contact .container .contact .contact__phone div a {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header .header__contact .container .button__order {
+  width: 23%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  border-radius: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.header .header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 12.5px 0;
+}
+.header .header__menu .menu {
+  width: 82.5%;
+  height: 15px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__menu .menu .menu__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.tile {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../../img/tile.png) no-repeat;
+  height: 532px;
+}
+.tile .tile__content {
+  max-width: 782px;
+  padding-top: 135px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tile .tile__content .tile__head {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 20px;
+}
+.tile .tile__content .tile__text {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 32px;
+}
+.tile .tile__content .tile__button {
+  width: 240px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #e05100;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.product .container {
+  margin: 0 auto;
+  max-width: 1050px;
+}
+.product .container .product__title {
+  margin: 120px 0 56px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

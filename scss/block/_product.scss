@@ -1,0 +1,19 @@
+.product {
+  .container {
+    margin: 0 auto;
+    max-width: 1050px;
+    .product__title {
+      margin: 120px 0 56px 0;
+      @include contact-text-black;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+    }
+    .product__card {
+      .card {
+      }
+    }
+    .product__button {
+    }
+  }
+}

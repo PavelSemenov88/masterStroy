@@ -1,0 +1,30 @@
+.tile {
+  background: linear-gradient(0deg, rgba(0, 0, 0, -0.4), rgba(0, 0, 0, -0.4)),
+    url(../../img/tile.png) no-repeat;
+  height: 532px;
+
+
+  .tile__content {
+    max-width: 782px;
+    padding-top: 135px;
+    margin: 0 auto;
+    text-align: center;
+    .tile__head {
+      @include contact-text-white;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 49px;
+      margin-bottom: 20px;
+    }
+    .tile__text {
+      @include contact-text-white;
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 32px;
+    }
+    .tile__button {
+      @include button;
+      
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.header {
+  .header__contact {
+    background-color: $fone;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: 1050px;
+      padding: 17.5px 0;
+
+      .contact {
+        display: flex;
+        max-width: 770px;
+        height: 45px;
+
+        .contact__adress {
+          display: flex;
+          align-items: center;
+          border-right: 1px solid $text;
+          width: 288 px;
+        }
+        .contact__adress p,
+        .contact__adress img {
+          @include contact-text-white;
+          height: 30px;
+        }
+        .contact__adress p {
+          padding: 0 20px 0 30px;
+        }
+        .contact__timework {
+          display: flex;
+          align-items: center;
+          border-right: 1px solid $text;
+          padding: 0 20px;
+        }
+        .contact__timework p,
+        .contact__timework img {
+          @include contact-text-white;
+          height: 30px;
+        }
+        .contact__timework img {
+          padding-right: 20px;
+        }
+
+        .contact__phone {
+          display: flex;
+          align-items: center;
+
+          .phone__numb1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 110px;
+            margin-right: 30px;
+          }
+
+          .phone__numb2 {
+          }
+        }
+        .contact__phone img {
+          padding: 0 20px;
+        }
+        .contact__phone div a {
+          @include contact-text-white;
+        }
+      }
+      .button__order {
+        width: 23%;
+        @include contact-text-black;
+        border-radius: 30px;
+        text-decoration: underline;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1050px;
+    padding: 12.5px 0;
+
+    .menu {
+      width: 82.5%;
+      height: 15px;
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      // align-content: center;
+
+      .menu__text {
+        @include contact-text-black;
+        font-size: 12px;
+        line-height: 15px;
+        
+      }
+    }
+  }
+}

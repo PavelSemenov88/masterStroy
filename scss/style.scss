@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1600px;
+}
+
+$fone: #404040;
+$text: #ffffff;
+$text-black: #000000;
+$buttom: #e05100;
+
+@mixin contact-text-white {
+  font-family: "Montserrat", sans-serif;
+  color: $text;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@mixin contact-text-black {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text-black;
+}
+
+@mixin button {
+  width: 240px;
+  height: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text;
+  background: $buttom;
+  border-radius: 30px;
+  text-align: center;
+}
+
+@import "block/_header";
+@import "block/_tile";
+@import "block/_product";
