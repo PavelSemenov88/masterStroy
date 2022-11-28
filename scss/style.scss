@@ -3,6 +3,7 @@
 }
 body {
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 $fone: #404040;
@@ -45,3 +46,5 @@ $buttom: #e05100;
 @import "block/_header";
 @import "block/_tile";
 @import "block/_product";
+@import "block/_about";
+@import "block/_top-product";
