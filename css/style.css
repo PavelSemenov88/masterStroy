@@ -328,7 +328,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.top .container .top__card .card {
+.top .container .top__card .cardTop {
   width: 510px;
   height: 350px;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
@@ -336,14 +336,14 @@ body {
   display: flex;
   margin-bottom: 30px;
 }
-.top .container .top__card .card .card__description {
+.top .container .top__card .cardTop .card__description {
   width: 65%;
   margin-left: 23px;
 }
-.top .container .top__card .card .card__description .card__description-img {
+.top .container .top__card .cardTop .card__description .card__description-img {
   margin: 20px 0 27px;
 }
-.top .container .top__card .card .card__description .card__description-title {
+.top .container .top__card .cardTop .card__description .card__description-title {
   margin-bottom: 12px;
   font-family: "Montserrat";
   font-style: normal;
@@ -354,10 +354,10 @@ body {
   font-size: 14px;
   line-height: 17px;
 }
-.top .container .top__card .card .card__description .card__description-text {
+.top .container .top__card .cardTop .card__description .card__description-text {
   margin-bottom: 10px;
 }
-.top .container .top__card .card .card__description .card__description-text p {
+.top .container .top__card .cardTop .card__description .card__description-text p {
   margin-bottom: 5px;
   font-family: "Montserrat";
   font-style: normal;
@@ -369,14 +369,14 @@ body {
   font-size: 14px;
   line-height: 17px;
 }
-.top .container .top__card .card .card__description .card__description-color .color {
+.top .container .top__card .cardTop .card__description .card__description-color .color {
   width: 15px;
   height: 16px;
   margin-right: 10px;
   display: inline-block;
   cursor: pointer;
 }
-.top .container .top__card .card .card__price {
+.top .container .top__card .cardTop .card__price {
   position: relative;
   width: 35%;
   background-color: #404040;
@@ -385,7 +385,7 @@ body {
   text-align: center;
   padding-top: 132px;
 }
-.top .container .top__card .card .card__price .card__price-content .content__color {
+.top .container .top__card .cardTop .card__price .card__price-content .content__color {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-style: normal;
@@ -396,7 +396,7 @@ body {
   font-size: 25px;
   line-height: 43px;
 }
-.top .container .top__card .card .card__price .card__price-content .content__text {
+.top .container .top__card .cardTop .card__price .card__price-content .content__text {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-style: normal;
@@ -406,7 +406,7 @@ body {
   font-size: 22px;
   line-height: 43px;
 }
-.top .container .top__card .card .card__price .card__price-add {
+.top .container .top__card .cardTop .card__price .card__price-add {
   position: absolute;
   bottom: 0;
   right: 0;
