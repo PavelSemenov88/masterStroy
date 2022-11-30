@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/renderCard.js" defer></script>
+    <script src="./js/works.js" defer></script>
+    <script src="./js/advantages.js" defer></script>
+    <script src="./js/scroll.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -60,12 +63,12 @@
       <div class="header__menu">
         <img src="./img/logo.png" alt="компания МастерСтрой" />
         <div class="menu">
-          <a href="#" class="menu__text">О компании</a>
-          <a href="#" class="menu__text">Укладка тротуарной плитки</a>
-          <a href="#" class="menu__text">Портфолио</a>
-          <a href="#" class="menu__text">Полезно знать</a>
-          <a href="#" class="menu__text">Доставка и оплата</a>
-          <a href="#" class="menu__text">Контакты</a>
+          <a href="#catalog" class="menu__text">Каталог продукции</a>
+          <a href="#about" class="menu__text">О нас</a>
+          <a href="#top" class="menu__text">Топ товаров</a>
+          <a href="#production" class="menu__text">О производстве</a>
+          <a href="#works" class="menu__text">Наши работы</a>
+          <a href="#advantages" class="menu__text">Наши преимущества</a>
         </div>
       </div>
     </header>
@@ -84,7 +87,7 @@
         <button class="tile__button">Каталог</button>
       </div>
     </section>
-    <section class="product">
+    <section class="product" id="catalog">
       <div class="container">
         <h2 class="product__title">Каталог продукции</h2>
         <div class="product__card">
@@ -125,7 +128,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <img src="./img/about.png" class="about__img">
         <div class="about__text">
@@ -148,44 +151,132 @@
         </div>
       </div>
     </section>
-    <section class="top">
+    <section class="top" id="top">
       <div class="container">
         <h2 class="top__title">Топ товаров</h2>
         <div class="top__card">
-          <!-- <div class="card"> -->
-            <!-- <div class="card__description">
-              <img src="./db/top/top-1.png" alt="" class="card__description-img">
-              <h3 class="card__description-title">Шестигранник 250x220x70</h3>
-              <div class="card__description-text">
-                <p>Размер:</p>
-                <p>Количество:</p>
-                <p>Цвета в наличии:</p>
-              </div>
-              <div class="card__description-color">
-                <span class="color-1 color"></span>
-                <span class="color-2 color"></span>
-                <span class="color-3 color"></span>
-                <span class="color-4 color"></span>
-                <span class="color-5 color"></span>
-                <span class="color-6 color"></span>
-                <span class="color-7 color"></span>
-                <span class="color-8 color"></span>
-              </div>
-            </div>
-            <div class="card__price">
-              <div class="card__price-content">
-                <p class="content__color">Серый</p>
-                <p class="content__text">500 руб кв/м</p>
-              </div>
-              <button class="card__price-add">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-                  <path d="M9.81818 0V9.5M9.81818 19V9.5M9.81818 9.5H0M9.81818 9.5H20" stroke="white"/>
-                  </svg>
-              </button>
-            </div> -->
-          <!-- </div> -->
+          
         </div>
       </div>
     </section>
+    <section class="fabrication" id="production">
+      <div class="container">
+        <h2 class="fabrication__title">О производстве</h2>
+        <div class="fabrication__info">
+          <div class="fabrication__info-left">
+            <div class="left__logo">
+              <img src="./img/logo.png" alt="МастерСтрой">
+            </div>
+            <div class="left__potential">
+              <div class="potential">
+                <img src="./img/fabrication/icon-1.svg" alt="МастерСтрой" class="potential__img">
+                <p class="potential__p">Доставка и разгрузка плитки краном-манипулятором</p>
+              </div>
+              <div class="potential">
+                <img src="./img/fabrication/icon-2.svg" alt="МастерСтрой" class="potential__img">
+                <p class="potential__p">Множество видов тротуарной плитки различной формы и фактуры</p>
+              </div>
+              <div class="potential">
+                <img src="./img/fabrication/icon-3.svg" alt="МастерСтрой" class="potential__img">
+                <p class="potential__p">Весь товар сертифицирован! Официальная гарантия!</p>
+              </div>
+            </div>
+          </div>
+          <div class="fabrication__info-right">
+            <!-- <iframe width="687" height="385" src="https://www.youtube.com/embed/T7nz2xUYBww" title="YouTube video player" frameborder="0" allowfullscreen></iframe> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <div class="container">
+        <h2 class="works__title">Наши работы</h2>
+        <p class="works__text">Отделка участка, сада, входной группы или любой другой частной территории требует большого внимания со стороны владельца, поскольку именно эти зоны являются «лицом», а значит и престижем вашего дома или коммерческого объекта. Подбор прочного и эстетически презентабельного материала для оформления входа, дорожек, пешеходных зон – это уже половина успеха отделки. Вторая половина – это, безусловно, грамотная укладка, обеспечивающая долговечность покрытия.</p>
+        <div class="works__photo">
+
+        </div>
+      </div>
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <h2 class="advantages__title">Наши преимущества</h2>
+        <div class="advantages__cards">
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__conten-left">
+            <p class="left__title">Магазин</p>
+            <p class="left__text">Петрсональный раздел</p>
+            <div class="left__time">
+              <img src="./img/clock_footer.svg" alt="" class="left__time-icon">
+              <p class="left__time-text">Режим работы: с 8:00 до 20:00</p>
+            </div>
+            <div class="left__telephone">
+              <img src="./img/phone_footer.svg" alt="" class="left__telephone-icon">
+              <div class="left__telephone-text">
+                <a href="tel:+79261059414">+7 (926) 105-94-14</a><br>
+                <a href="tel:+79104706797">+7 (910) 470-67-97</a><br>
+                <a href="tel:+74999949099">+7 (499) 994-90-99</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__conten-right">
+            <ul>
+              <li class="menu__title">
+                <a href="#" class="">Каталог</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Акции</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Тротуарная плитка</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Бордюры</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="menu__title">
+                <a href="#" class="">Сервисы</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Дизайн-проект</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Укладка брусчатки</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Доставка</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="menu__title">
+                <a href="#" class="">О компании</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Контакты</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Завод BRAER</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="">Портфолио</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+        <p class="footer__text">© 2022 ООО "Мастер строй"</p>
+
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
   </body>
 </html>

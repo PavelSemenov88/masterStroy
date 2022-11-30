@@ -23,7 +23,7 @@ const pullCard = () => fetch('/db/price.json')
               <div class="card__description-text">
                 <p>Размер: ${card.size}</p>
                 <p>Количество: ${card.quantity}</p>
-                <p>Цвета в наличии: ${card.colorsAvailable} ${card.id}</p>
+                <p>Цвета в наличии: ${card.colorsAvailable}</p>
               </div>
               <div class="card__description-color">
                 <span class="color-1 color" style="background-color: #${card.catalog.color1};"></span>

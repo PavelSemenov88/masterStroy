@@ -1,30 +1,31 @@
 .product {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
   .container {
     margin: 0 auto;
     max-width: 1050px;
     text-align: center;
     .product__title {
-      margin: 120px 0 56px 0;
+      margin-bottom: 56px;
       @include contact-text-black;
       font-size: 35px;
       line-height: 43px;
     }
     .product__card {
       display: flex;
+      column-gap: 30px;
+      row-gap: 62px;
       flex-wrap: wrap;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      @media (max-width: 1100px) {
-        justify-content: space-around;
-      }
+      justify-content: center;
+      margin-bottom: 62px;
+
       .card {
         width: 240px;
         height: 264px;
         background: $text;
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        margin-bottom: 62px;
+        
       }
       .card img {
         margin-top: 60px;

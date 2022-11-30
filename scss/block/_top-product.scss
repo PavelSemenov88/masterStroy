@@ -1,7 +1,10 @@
 .top {
+  padding-top: 120px;
+  margin-bottom: 90px;
   .container {
     margin: 0 auto;
     max-width: 1050px;
+    
     .top__title {
       text-align: center;
       @include contact-text-black;
@@ -44,31 +47,7 @@
             line-height: 17px;
           }
           .card__description-color {
-            // .color-1 {
-            //   background-color: #737373;
-            // }
-            // .color-2 {
-            //   background-color: #9C0909;
-            // }
-            // .color-3 {
-            //   background-color: #D48D37;
-            // }
-            // .color-4 {
-            //   background-color: #964B00;
-            // }
-            // .color-5 {
-            //   background-color: #DC143C;
-            // }
-            // .color-6 {
-            //   background-color: #49423D;
-            // }
-            // .color-7 {
-            //   background-color: #D77D31;
-            // }
-            // .color-8 {
-            //   background-color: #000000;
-            // }
-
+            
             .color {
               width: 15px;
               height: 16px;
@@ -97,9 +76,24 @@
             }
             .content__text {
               @include contact-text-white;
-
               font-size: 22px;
               line-height: 43px;
+
+
+              @keyframes showBlock {
+                0% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
+              span {
+                
+                animation: $showBlock 1s linear forwards;
+
+                
+              }
             }
           }
           .card__price-add {

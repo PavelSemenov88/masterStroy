@@ -4,6 +4,7 @@
 body {
   max-width: 1600px;
   margin: 0 auto;
+
 }
 
 $fone: #404040;
@@ -21,7 +22,7 @@ $buttom: #e05100;
 }
 
 @mixin contact-text-black {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -48,3 +49,7 @@ $buttom: #e05100;
 @import "block/_product";
 @import "block/_about";
 @import "block/_top-product";
+@import "block/_fabrication";
+@import "block/_works";
+@import "block/_advantages";
+@import "block/_footer";

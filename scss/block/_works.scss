@@ -1,0 +1,31 @@
+.works {
+  padding-top: 120px;
+  margin-bottom: 120px;
+  .container {
+    max-width: 1050px;
+    margin: 0 auto;
+    .works__title {
+      @include contact-text-black;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    .works__text {
+      @include contact-text-black;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+
+    .works__photo {
+      display: flex;
+      column-gap: 30px;
+      row-gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

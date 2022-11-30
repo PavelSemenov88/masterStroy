@@ -1,0 +1,55 @@
+.advantages {
+  background-color: $fone;
+  padding-bottom: 120px;
+
+  .container {
+    margin: 0 auto;
+    max-width: 1050px;
+    text-align: center;
+    
+
+    .advantages__title {
+      padding: 120px 0 80px;
+      @include contact-text-white;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      
+    }
+
+    .advantages__cards {
+      display: flex;
+      column-gap: 30px;
+      row-gap: 50px;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+      .advantage {
+        width: 330px;
+        height: 323px;
+        padding: 20px 30px;
+        background: $text;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+
+        .advantage__img {
+          height: 103px;
+        }
+        .advantage__h3 {
+          @include contact-text-black;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: left;
+          margin: 30px 0 15px 0;
+        }
+        .advantage__p {
+          @include contact-text-black;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.fabrication {
+  
+  padding-bottom: 128px;
+  background-color: $fone;
+  .container {
+    max-width: 1050px;
+    margin: 0 auto;
+
+    .fabrication__title {
+      padding: 120px 0 90px;
+      @include contact-text-white;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+      text-align: center;
+    }
+    .fabrication__info {
+      display: flex;
+      width: 100%;
+      .fabrication__info-left {
+        width: 35%;
+        .left__logo {
+          width: 231px;
+          height: 74px;
+          background: $text;
+          border-radius: 30px;
+          text-align: center;
+          padding-top: 9px;
+          margin-bottom: 50px;
+        }
+        .left__potential {
+          .potential {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+
+            .potential__img {
+            }
+            .potential__p {
+              @include contact-text-white;
+              font-size: 14px;
+              line-height: 17px;
+              padding-left: 30px;
+              padding-right: 32px;
+            }
+          }
+        }
+      }
+      .fabrication__info-right {
+        width: 65%;
+      }
+    }
+  }
+}
