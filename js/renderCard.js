@@ -53,6 +53,8 @@ const pullCard = () => fetch('/db/price.json')
     const cardsTop = document.querySelectorAll('.cardTop');
     const contentColor = document.querySelectorAll('.content__color');
     const contentPrice = document.querySelectorAll('.content__text > span');
+    const buttonAdd = document.querySelectorAll('.card__price-add');
+
 
 
     cardsTop.forEach((card, cardIdx) => {
@@ -74,6 +76,7 @@ const pullCard = () => fetch('/db/price.json')
           })
         }
       })
+
     })
   })
   .catch(error => {

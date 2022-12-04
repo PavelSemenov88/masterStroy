@@ -2,8 +2,10 @@
   padding-top: 120px;
   margin-bottom: 120px;
   .container {
-    max-width: 1050px;
+    max-width: 1090px;
+    padding: 0 20px;
     margin: 0 auto;
+
     .works__title {
       @include contact-text-black;
       font-size: 35px;

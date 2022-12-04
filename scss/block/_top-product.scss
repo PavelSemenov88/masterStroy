@@ -1,9 +1,11 @@
 .top {
   padding-top: 120px;
   margin-bottom: 90px;
+
   .container {
     margin: 0 auto;
-    max-width: 1050px;
+    max-width: 1090px;
+    padding: 0 20px;
     
     .top__title {
       text-align: center;
@@ -16,19 +18,33 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+
+      @media (max-width: 880px) {
+        flex-direction: column;
+        
+      }
       .cardTop {
-        width: 510px;
-        height: 350px;
+        width: 48.572%;
+        // height: 350px;
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
         display: flex;
         margin-bottom: 30px;
 
+        @media (max-width: 880px) {
+          width: 100%;
+          max-width: 532px;
+          margin: 0 auto 30px;
+          
+        }
+
         .card__description {
           width: 65%;
           margin-left: 23px;
+          margin-right: 23px;
           .card__description-img {
             margin: 20px 0 27px;
+            width: 100%;;
           }
           .card__description-title {
             margin-bottom: 12px;
@@ -47,7 +63,7 @@
             line-height: 17px;
           }
           .card__description-color {
-            
+            padding-bottom: 12px;
             .color {
               width: 15px;
               height: 16px;
@@ -80,20 +96,20 @@
               line-height: 43px;
 
 
-              @keyframes showBlock {
-                0% {
-                  opacity: 0;
-                }
-                100% {
-                  opacity: 1;
-                }
-              }
-              span {
+              // @keyframes showBlock {
+              //   0% {
+              //     opacity: 0;
+              //   }
+              //   100% {
+              //     opacity: 1;
+              //   }
+              // }
+              // span {
                 
-                animation: $showBlock 1s linear forwards;
+              //   animation: $showBlock 1s linear forwards;
 
                 
-              }
+              // }
             }
           }
           .card__price-add {

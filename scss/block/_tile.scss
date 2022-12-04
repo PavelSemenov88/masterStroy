@@ -1,20 +1,27 @@
 .tile {
   background: linear-gradient(0deg, rgba(0, 0, 0, -0.4), rgba(0, 0, 0, -0.4)),
-    url('../../img/tile.png') no-repeat;
-  height: 532px;
-
+    url("../../img/tile.png") no-repeat;
 
   .tile__content {
-    max-width: 782px;
-    padding-top: 135px;
+    max-width: 822px;
+    padding: 135px 20px 135px 20px;
     margin: 0 auto;
     text-align: center;
+
+    @media (max-width: 850px) {
+      padding: 60px 20px 60px 20px;
+    }
+
     .tile__head {
       @include contact-text-white;
       font-weight: 700;
       font-size: 40px;
       line-height: 49px;
       margin-bottom: 20px;
+      @media (max-width: 850px) {
+        font-size: 28px;
+        line-height: 28px;
+      }
     }
     .tile__text {
       @include contact-text-white;
@@ -24,7 +31,6 @@
     }
     .tile__button {
       @include button;
-      
     }
   }
 }
