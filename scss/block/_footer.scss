@@ -96,11 +96,12 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 14px;
+            color: $text-black;
           }
         }
       }
     }
-    
+
     .footer__text {
       @include contact-text-black;
       font-weight: 400;

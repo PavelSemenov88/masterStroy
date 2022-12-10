@@ -5,6 +5,7 @@
 body {
   max-width: 1600px;
   margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header .header__contact {
@@ -194,7 +195,7 @@ body {
 }
 
 .tile {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../../img/tile.png") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/tile.png") no-repeat;
 }
 .tile .tile__content {
   max-width: 822px;
@@ -239,7 +240,7 @@ body {
 .tile .tile__content .tile__button {
   width: 240px;
   height: 60px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -302,7 +303,7 @@ body {
 .product .container .product__button {
   width: 240px;
   height: 60px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -406,7 +407,7 @@ body {
 .about .container .about__text .about__text-button {
   width: 240px;
   height: 60px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -878,6 +879,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
+  color: #000000;
 }
 .footer .container .footer__text {
   font-family: "Montserrat", sans-serif;
