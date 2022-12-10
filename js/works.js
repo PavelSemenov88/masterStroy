@@ -14,7 +14,7 @@ const pullCardPhoto = () => fetch('./db/photo.json')
   data.forEach(photo => {
     const cardPhoto = document.createElement('img');
     cardPhoto.classList.add('photo');
-    cardPhoto.setAttribute('src', `/db/${photo.img}`)
+    cardPhoto.setAttribute('src', `./db/${photo.img}`)
     photosContainer.append(cardPhoto);
   });
 

@@ -9,12 +9,20 @@
     .footer__content {
       display: flex;
       width: 100%;
+      // @media (max-width:700px) {
+      //   flex-direction: column;
+
+      // }
 
       .footer__conten-left {
         width: 50%;
 
         @media (max-width: 900px) {
           width: 35%;
+        }
+
+        @media (max-width: 700px) {
+          display: none;
         }
 
         .left__title {
@@ -74,6 +82,9 @@
         @media (max-width: 900px) {
           width: 65%;
         }
+        @media (max-width: 700px) {
+          width: 100%;
+        }
 
         ul {
           width: 33.33%;
@@ -92,11 +103,14 @@
 
           .nav__item {
             margin-bottom: 20px;
-            @include contact-text-black;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 14px;
-            color: $text-black;
+            
+            a {
+              @include contact-text-black;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 14px;
+              color: $text-black;
+            }
           }
         }
       }
