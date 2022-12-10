@@ -2,7 +2,7 @@
 const cardsContainer = document.querySelector('.top__card');
 
 
-const pullCard = () => fetch('../db/price.json')
+const pullCard = () => fetch('./db/price.json')
   .then(res => {
     if (res.ok) {
       return res.json()

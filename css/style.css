@@ -88,7 +88,7 @@ body {
 .header .header__contact .container .contact .contact__phone .phone__numb1 {
   display: flex;
   flex-wrap: wrap;
-  width: 120px;
+  width: 140px;
   padding-right: 30px;
 }
 @media (max-width: 1050px) {

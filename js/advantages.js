@@ -1,7 +1,7 @@
 'use strict';
 const advantagesContainer = document.querySelector('.advantages__cards');
 
-const pullCardAdvantage = () => fetch('../db/advantage.json')
+const pullCardAdvantage = () => fetch('./db/advantage.json')
   .then(res => {
     if (res.ok) {
       return res.json()
