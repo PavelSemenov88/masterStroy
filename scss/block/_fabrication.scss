@@ -1,6 +1,7 @@
 .fabrication {
   padding-bottom: 128px;
   background-color: $fone;
+
   .container {
     max-width: 1090px;
     padding: 0 20px;
@@ -14,18 +15,23 @@
       line-height: 43px;
       text-align: center;
     }
+
     .fabrication__info {
       display: flex;
       width: 100%;
+
       @media (max-width: 900px) {
         flex-direction: column;
         margin: 0 auto;
       }
+
       .fabrication__info-left {
         width: 35%;
+
         @media (max-width: 900px) {
           width: 100%;
         }
+
         .left__logo {
           width: 231px;
           height: 74px;
@@ -34,27 +40,29 @@
           text-align: center;
           padding-top: 9px;
           margin-bottom: 50px;
+
           @media (max-width: 900px) {
             margin: 0 auto 50px;
           }
         }
+
         .left__potential {
           @media (max-width: 900px) {
             display: flex;
           }
+
           .potential {
             display: flex;
             align-items: center;
             margin-bottom: 40px;
 
-            .potential__img {
-            }
             .potential__p {
               @include contact-text-white;
               font-size: 14px;
               line-height: 17px;
               padding-left: 30px;
               padding-right: 32px;
+
               @media (max-width: 900px) {
                 padding-left: 10px;
                 padding-right: 10px;
@@ -66,6 +74,7 @@
       .fabrication__info-right {
         display: flex;
         width: 65%;
+        
         @media (max-width: 900px) {
           width: 100%;
           justify-content: center;

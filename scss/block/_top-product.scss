@@ -14,6 +14,7 @@
       line-height: 43px;
       margin-bottom: 80px;
     }
+
     .top__card {
       display: flex;
       justify-content: space-between;
@@ -25,7 +26,6 @@
       }
       .cardTop {
         width: 48.572%;
-        // height: 350px;
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
         display: flex;
@@ -35,26 +35,29 @@
           width: 100%;
           max-width: 532px;
           margin: 0 auto 30px;
-          
         }
 
         .card__description {
           width: 65%;
           margin-left: 23px;
           margin-right: 23px;
+
           .card__description-img {
             margin: 20px 0 27px;
             width: 100%;;
           }
+
           .card__description-title {
             margin-bottom: 12px;
             @include contact-text-black;
             font-size: 14px;
             line-height: 17px;
           }
+
           .card__description-text {
             margin-bottom: 10px;
           }
+
           .card__description-text p {
             margin-bottom: 5px;
             @include contact-text-black;
@@ -62,8 +65,10 @@
             font-size: 14px;
             line-height: 17px;
           }
+
           .card__description-color {
             padding-bottom: 12px;
+
             .color {
               width: 15px;
               height: 16px;
@@ -82,7 +87,6 @@
           text-align: center;
           padding-top: 132px;
 
-
           .card__price-content {
             .content__color {
               @include contact-text-white;
@@ -94,24 +98,9 @@
               @include contact-text-white;
               font-size: 22px;
               line-height: 43px;
-
-
-              // @keyframes showBlock {
-              //   0% {
-              //     opacity: 0;
-              //   }
-              //   100% {
-              //     opacity: 1;
-              //   }
-              // }
-              // span {
-                
-              //   animation: $showBlock 1s linear forwards;
-
-                
-              // }
             }
           }
+          
           .card__price-add {
             position: absolute;
             bottom: 0;

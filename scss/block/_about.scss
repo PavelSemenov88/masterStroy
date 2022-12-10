@@ -1,20 +1,18 @@
 .about {
-  // margin-bottom: 120px;
   background-color: $fone;
+
   .container {
     max-width: 1600px;
     margin: 0 auto;
-    
     display: flex;
     align-items: center;
 
     @media (max-width: 1200px) {
       flex-wrap: wrap;
       justify-content: center;
-      // max-width: 590px;
     }
-    @media (max-width: 1100px) {
 
+    @media (max-width: 1100px) {
       max-width: 630px;
       padding: 0 20px;
     }
@@ -23,24 +21,20 @@
       display: block;
       align-self: center;
       width: 50%;
-      // max-width: 748px;
-      // max-height: 748px;
-      // width: auto;
-      // height: auto;
 
       @media (max-width: 1100px) {
-        // max-width: 448px;
         width: 100%;
       }
     }
+
     .about__text {
       width: 50%;
       padding: 0 79px 0 68px;
+
       @media (max-width: 1300px) {
         padding: 0 35px 0 35px;
       }
       @media (max-width: 1100px) {
-        // width: 590px;
         width: 100%;
         padding: 20px 35px 20px 35px;
       }
@@ -52,6 +46,7 @@
         font-size: 35px;
         line-height: 43px;
         margin-bottom: 80px;
+
         @media (max-width: 1300px) {
           margin-bottom: 30px;
         }
@@ -59,6 +54,7 @@
           width: 590px;
         }
       }
+      
       .about__text-item {
         @include contact-text-white;
         font-weight: 700;
@@ -66,10 +62,12 @@
         line-height: 24px;
         margin-bottom: 31px;
       }
+
       .about__text-text {
         @include contact-text-white;
         margin-bottom: 20px;
       }
+
       .about__text-button {
         @include button;
         font-weight: 700;

@@ -7,7 +7,6 @@
     max-width: 1090px;
     padding: 0 20px;
     text-align: center;
-    
 
     .advantages__title {
       padding: 120px 0 80px;
@@ -15,7 +14,6 @@
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
-      
     }
 
     .advantages__cards {
@@ -36,6 +34,7 @@
         .advantage__img {
           height: 103px;
         }
+        
         .advantage__h3 {
           @include contact-text-black;
           font-size: 14px;
@@ -43,6 +42,7 @@
           text-align: left;
           margin: 30px 0 15px 0;
         }
+
         .advantage__p {
           @include contact-text-black;
           font-weight: 400;

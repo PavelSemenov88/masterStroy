@@ -1,6 +1,6 @@
 .tile {
   background: linear-gradient(0deg, rgba(0, 0, 0, -0.4), rgba(0, 0, 0, -0.4)),
-    url("../../img/tile.png") no-repeat;
+    url("../img/tile.png") no-repeat;
 
   .tile__content {
     max-width: 822px;
@@ -23,12 +23,14 @@
         line-height: 28px;
       }
     }
+
     .tile__text {
       @include contact-text-white;
       font-size: 14px;
       line-height: 17px;
       margin-bottom: 32px;
     }
+    
     .tile__button {
       @include button;
     }

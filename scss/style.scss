@@ -4,6 +4,7 @@
 body {
   max-width: 1600px;
   margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
 
 }
 
@@ -33,7 +34,7 @@ $buttom: #e05100;
 @mixin button {
   width: 240px;
   height: 60px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

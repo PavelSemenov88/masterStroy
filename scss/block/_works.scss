@@ -1,6 +1,7 @@
 .works {
   padding-top: 120px;
   margin-bottom: 120px;
+
   .container {
     max-width: 1090px;
     padding: 0 20px;
@@ -13,6 +14,7 @@
       text-align: center;
       margin-bottom: 80px;
     }
+    
     .works__text {
       @include contact-text-black;
       font-weight: 400;
